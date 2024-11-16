@@ -1,0 +1,26 @@
+Font declaration
+
+make sure that this declaration is added to the pubspec.yaml file
+flutter:
+    assets:
+        - assets/fonts/
+
+after addind this declaration, then add the fonts to the same flutter: section
+
+Example
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/fonts/
+
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: assets/fonts/Urbanist-Regular.ttf
+        - asset: assets/fonts/Urbanist-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Urbanist-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Urbanist-Medium.ttf
+          weight: 500
